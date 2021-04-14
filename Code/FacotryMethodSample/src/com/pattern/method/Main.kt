@@ -1,7 +1,7 @@
-package com.pattern.old
+package com.pattern.method
 
-import com.pattern.old.const.CoffeeRecipe
-import com.pattern.old.factory.CoffeeFactory
+import com.pattern.method.const.CoffeeRecipe
+import com.pattern.method.factory.CoffeeFactory
 
 object Main
 {

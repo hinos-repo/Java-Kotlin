@@ -1,9 +1,9 @@
-package com.pattern.old.factory
+package com.pattern.method.factory
 
-import com.pattern.old.const.CoffeeRecipe
-import com.pattern.old.template.beans.Beans
-import com.pattern.old.template.beans.JamaicaBeans
-import com.pattern.old.template.beans.SantosBeans
+import com.pattern.method.const.CoffeeRecipe
+import com.pattern.method.template.beans.Beans
+import com.pattern.method.template.beans.JamaicaBeans
+import com.pattern.method.template.beans.SantosBeans
 
 class BeansFactory
 {

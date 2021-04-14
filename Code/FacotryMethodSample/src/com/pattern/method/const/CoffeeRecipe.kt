@@ -1,4 +1,4 @@
-package com.pattern.old.const
+package com.pattern.method.const
 
 enum class CoffeeRecipe
 {

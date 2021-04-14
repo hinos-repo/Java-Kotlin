@@ -1,4 +1,4 @@
-package com.pattern.old.template.beans
+package com.pattern.method.template.beans
 
 abstract class Beans
 {

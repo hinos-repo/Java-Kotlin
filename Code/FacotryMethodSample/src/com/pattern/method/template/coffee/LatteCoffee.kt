@@ -1,8 +1,8 @@
-package com.pattern.old.template.coffee
+package com.pattern.method.template.coffee
 
-import com.pattern.old.template.beans.Beans
+import com.pattern.method.template.beans.Beans
 
-class Latte(override var m_benas: Beans) : Coffee()
+class LatteCoffee(override var m_benas: Beans) : Coffee()
 {
     init
     {

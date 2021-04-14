@@ -1,6 +1,6 @@
-package com.pattern.old.template.coffee
+package com.pattern.method.template.coffee
 
-import com.pattern.old.template.beans.Beans
+import com.pattern.method.template.beans.Beans
 
 abstract class Coffee
 {
