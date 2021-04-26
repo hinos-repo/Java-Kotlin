@@ -18,19 +18,19 @@ public class SortExample
     {
         char [] arrCh = question.toCharArray();
 
-        char tmp;
+        char select;
         for(int i = 1; i < arrCh.length; i++)
         {
             System.out.print(i+"회차 : ");
             System.out.println(arrCh);
-            tmp = arrCh[i];
+            select = arrCh[i];
             int j = i;
-            while (j > 0 && tmp < arrCh[j-1])
+            while (j > 0 && select < arrCh[j-1])
             {
                 arrCh[j] = arrCh[j-1]; // <<왼쪽으로 밀기
                 j--;
             }
-            arrCh[j] = tmp; // 값 체인지
+            arrCh[j] = select; // 값 체인지
         }
         return new String(arrCh);
     }
